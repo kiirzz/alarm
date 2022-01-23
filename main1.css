@@ -1,0 +1,119 @@
+.background {
+    background: url(./assets/image/bg.jpg) no-repeat top left;
+    background-size: cover;
+    width: 100%;
+    height: 955px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain {
+    height: 50%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain__box {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contain__box-icon {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    font-size: 5rem;
+    color: var(--main-color);
+}
+
+.contain__box-date {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contain__box-time {
+    height: 40px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-box {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    color: black;
+    border-radius: 2px;
+}
+
+.contain__box-button--box {
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain__box-button {
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.15rem;
+    background-color: var(--main-color);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(231, 142, 24);
+}
+
+.button-options {
+    width: 100%;
+    height: 110px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50px;
+}
+
+.button1 {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.15rem;
+    background-color: var(--temp-color);
+}
+
+.button1:hover {
+    cursor: pointer;
+    background-color: rgb(46, 225, 231);
+}
