@@ -1,8 +1,8 @@
 .background {
     background: url(./assets/image/bg.jpg) no-repeat top left;
     background-size: cover;
-    width: 100%;
-    height: 955px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
 }
 
 .contain__box-date {
-    width: 75%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
